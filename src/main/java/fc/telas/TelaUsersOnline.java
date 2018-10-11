@@ -136,7 +136,7 @@ public class TelaUsersOnline extends Container {
 						}
 						
 						setBackColor(0XFFFFFF);
-						Button bt = new Button("João Carlos                                 ",img,RIGHT,50);
+						Button bt = new Button("Joao Carlos                                 ",img,RIGHT,50);
 						bt.transparentBackground = true;
 						bt.setBorder(BORDER_NONE);
 						add(bt, LEFT, TOP, FILL, FILL);
