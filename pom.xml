@@ -14,8 +14,6 @@
 			<groupId>com.totalcross</groupId>
 			<artifactId>totalcross-sdk</artifactId>
 			<version>5.0.0-M2</version>
-			<scope>system</scope>
-			<systemPath>C:\Program Files\TotalCross\sdk\dist\totalcross-sdk.jar</systemPath>
 		</dependency>
 		
 		<dependency>
@@ -23,7 +21,8 @@
       		<artifactId>sqlite-jdbc</artifactId>
       		<version>3.8.7</version>
       		<scope>compile</scope>
-    	</dependency>		
+    	</dependency>
+		
 	</dependencies>
 	
 	<repositories>
@@ -79,9 +78,7 @@
 								<argument>FBTC</argument>
 								<argument>/p</argument>
 								<argument>/r</argument>
-								<argument>${totalcross.activation_key}</argument>
-								<argument>/m</argument>
-								<argument>C:\Users\TotalCross\Downloads\iOSCertificadosEnterpriseSoftSite</argument>								
+								<argument>${totalcross.activation_key}</argument>							
 							</arguments>
 						</configuration>
 					</execution>

@@ -419,7 +419,7 @@ public class TelaContatos extends Container {
 								public void initUI(){
 									try{
 					
-							Button msg = new Button("Ricardo Assunção                         ");
+							Button msg = new Button("Ricardo Assunï¿½ï¿½o                         ");
 							msg.setBorder(BORDER_NONE);
 							Font f1 = Font.getFont("LatoRegular", false, this.getFont().size+1);
 							msg.setFont(f1);

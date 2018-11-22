@@ -79,7 +79,7 @@ public class TelaPost extends ScrollContainer {
 
 
 
-		scFeed = new ScrollContainer() {
+		scFeed = new ScrollContainer(false,true) {
 			public void initUI() {
 				setBackColor(0xDDDDDD);
 
@@ -283,7 +283,7 @@ public class TelaPost extends ScrollContainer {
 
 										}
 
-										Label lb = new Label("Fãs de \nSeries");
+										Label lb = new Label("Fï¿½s de \nSeries");
 										lb.transparentBackground = true;
 										Font ft = Font.getFont(true, Font.NORMAL_SIZE+1);
 										lb.setFont(ft);
@@ -501,36 +501,37 @@ public class TelaPost extends ScrollContainer {
 								like = new Button("Like",img1,RIGHT,5);
 								like.setBorder(BORDER_NONE);
 								like.transparentBackground = true;
-								add(like, LEFT, AFTER, DP+122,DP+35);
+								add(like, LEFT, AFTER, PARENTSIZE+33,PREFERRED+70);
 
 								Container linhab = new Container();
 								linhab.setBackColor(0xBDBDBD);
-								add(linhab, AFTER, SAME, 1, DP+35);
+								add(linhab, AFTER, SAME, 1, PARENTSIZE);
 
 								comment = new Button("Comment",img2,RIGHT,5);
 								comment.setBorder(BORDER_NONE);
 								comment.transparentBackground = true;
-								add(comment, AFTER, SAME, DP+122,DP+35);
+								add(comment, AFTER, SAME,PARENTSIZE+33,PREFERRED+70);
 
 								Container linhab1 = new Container();
 								linhab1.setBackColor(0xBDBDBD);
-								add(linhab1, AFTER, SAME, 1, DP+35);
+								add(linhab1, AFTER, SAME, 1, PARENTSIZE);
 
 								share = new Button("Share",img3,RIGHT,5);
 								share.setBorder(BORDER_NONE);
 								share.transparentBackground = true;
-								add(share, AFTER, SAME, DP+122,DP+35);
-
+								add(share, AFTER, SAME, PARENTSIZE+33,PREFERRED+70);
+								
 							}
 						};
-						add(ctp3, LEFT, AFTER, FILL, DP+80);
+						
+						add(ctp3, LEFT, AFTER, FILL, PARENTSIZE+14);
 					}
 				};
-
-				add(ctPost, LEFT, AFTER + 50, FILL, DP + 465);
-
+				add(ctPost, LEFT, AFTER + 50, FILL,PARENTSIZE+96);
 			}
 		};
+		
 		add(scFeed, LEFT, AFTER, FILL, FILL);
+		
 	}
 }

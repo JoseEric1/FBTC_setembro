@@ -15,7 +15,7 @@ public class TelaAlert extends Container {
 	private Container ct;
 	private Image img1,img2;
 	private Button bt;
-	private final static int dp = (int) Settings.screenDensity;
+	private final static int dp = 100;
 
 	public TelaAlert() {
 		setBackColor(0xAAAAAA);
@@ -39,7 +39,7 @@ public class TelaAlert extends Container {
 				add(ct, LEFT, TOP, FILL, PARENTSIZE + 8);
 
 				try{
-					img2 = new Image("img/fb_icon.png").smoothScaledFixedAspectRatio(15 * dp, true);
+					img2 = new Image("img/fb_icon.png").smoothScaledFixedAspectRatio(fmH-8, true);
 					
 				}catch(Exception ee){
 					ee.printStackTrace();
@@ -50,7 +50,7 @@ public class TelaAlert extends Container {
 						setBackColor(0XF5F5F5);
 
 						try {
-							img1 = new Image("img/persO7.jpg").smoothScaledFixedAspectRatio(50 * dp, true);
+							img1 = new Image("img/persO7.jpg").smoothScaledFixedAspectRatio(fmH*3, true);
 							
 						} catch (IOException e) {
 							// TODO Auto-generated catch block
@@ -82,7 +82,7 @@ public class TelaAlert extends Container {
 						setBackColor(0XF5F5F5);
 
 						try {
-							img1 = new Image("img/persO8.jpg").smoothScaledFixedAspectRatio(50 * dp, true);
+							img1 = new Image("img/persO8.jpg").smoothScaledFixedAspectRatio(fmH*3, true);
 
 						} catch (IOException e) {
 							// TODO Auto-generated catch block
@@ -114,7 +114,7 @@ public class TelaAlert extends Container {
 						setBackColor(0XF5F5F5);
 
 						try {
-							img1 = new Image("img/persO9.jpg").smoothScaledFixedAspectRatio(50 * dp, true);
+							img1 = new Image("img/persO9.jpg").smoothScaledFixedAspectRatio(fmH*3, true);
 
 						} catch (IOException e) {
 							// TODO Auto-generated catch block
@@ -146,7 +146,7 @@ public class TelaAlert extends Container {
 						setBackColor(0XF5F5F5);
 
 						try {
-							img1 = new Image("img/persO10.jpg").smoothScaledFixedAspectRatio(50 * dp, true);
+							img1 = new Image("img/persO10.jpg").smoothScaledFixedAspectRatio(fmH*3, true);
 
 						} catch (IOException e) {
 							// TODO Auto-generated catch block
@@ -178,7 +178,7 @@ public class TelaAlert extends Container {
 						setBackColor(0XF5F5F5);
 
 						try {
-							img1 = new Image("img/persO11.jpg").smoothScaledFixedAspectRatio(50 * dp, true);
+							img1 = new Image("img/persO11.jpg").smoothScaledFixedAspectRatio(fmH*3, true);
 
 						} catch (IOException e) {
 							// TODO Auto-generated catch block
@@ -210,7 +210,7 @@ public class TelaAlert extends Container {
 						setBackColor(0XF5F5F5);
 
 						try {
-							img1 = new Image("img/persO12.jpg").smoothScaledFixedAspectRatio(50 * dp, true);
+							img1 = new Image("img/persO12.jpg").smoothScaledFixedAspectRatio(fmH*3, true);
 
 						} catch (IOException e) {
 							// TODO Auto-generated catch block
@@ -242,7 +242,7 @@ public class TelaAlert extends Container {
 						setBackColor(0XF5F5F5);
 
 						try {
-							img1 = new Image("img/persO13.jpg").smoothScaledFixedAspectRatio(50 * dp, true);
+							img1 = new Image("img/persO13.jpg").smoothScaledFixedAspectRatio(fmH*3, true);
 
 						} catch (IOException e) {
 							// TODO Auto-generated catch block
@@ -274,7 +274,7 @@ public class TelaAlert extends Container {
 						setBackColor(0XF5F5F5);
 
 						try {
-							img1 = new Image("img/persO14.jpg").smoothScaledFixedAspectRatio(50 * dp, true);
+							img1 = new Image("img/persO14.jpg").smoothScaledFixedAspectRatio(fmH*3, true);
 
 						} catch (IOException e) {
 							// TODO Auto-generated catch block
@@ -306,7 +306,7 @@ public class TelaAlert extends Container {
 						setBackColor(0XF5F5F5);
 
 						try {
-							img1 = new Image("img/pagO2.jpg").smoothScaledFixedAspectRatio(50 * dp, true);
+							img1 = new Image("img/pagO2.jpg").smoothScaledFixedAspectRatio(fmH*3, true);
 
 						} catch (IOException e) {
 							// TODO Auto-generated catch block
@@ -338,7 +338,7 @@ public class TelaAlert extends Container {
 						setBackColor(0XF5F5F5);
 
 						try {
-							img1 = new Image("img/pagO3.png").smoothScaledFixedAspectRatio(50 * dp, true);
+							img1 = new Image("img/pagO3.png").smoothScaledFixedAspectRatio(fmH*3, true);
 
 						} catch (IOException e) {
 							// TODO Auto-generated catch block
@@ -369,7 +369,7 @@ public class TelaAlert extends Container {
 						setBackColor(0XF5F5F5);
 
 						try {
-							img1 = new Image("img/pagO1.jpg").smoothScaledFixedAspectRatio(50 * dp, true);
+							img1 = new Image("img/pagO1.jpg").smoothScaledFixedAspectRatio(fmH*3, true);
 
 						} catch (IOException e) {
 							// TODO Auto-generated catch block

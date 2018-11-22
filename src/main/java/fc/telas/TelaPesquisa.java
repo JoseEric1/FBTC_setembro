@@ -172,7 +172,7 @@ public class TelaPesquisa extends Container {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				bt = new Button("Fans of League of Legends     ",img1,RIGHT,50);
+				bt = new Button("Fans de League of Legends     ",img1,RIGHT,50);
 				bt.transparentBackground = true;
 				bt.setBorder(BORDER_NONE);
 				add(bt, LEFT, TOP, PARENTSIZE, PARENTSIZE);
@@ -226,7 +226,7 @@ public class TelaPesquisa extends Container {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				bt = new Button("Fans of Games                           ",img1,RIGHT,50);
+				bt = new Button("Fans de Games                           ",img1,RIGHT,50);
 				bt.transparentBackground = true;
 				bt.setBorder(BORDER_NONE);
 				add(bt, LEFT, TOP, PARENTSIZE, PARENTSIZE);
@@ -280,7 +280,7 @@ public class TelaPesquisa extends Container {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				bt = new Button("Fans of Series                            ",img1,RIGHT,50);
+				bt = new Button("Fans de Series                            ",img1,RIGHT,50);
 				bt.transparentBackground = true;
 				bt.setBorder(BORDER_NONE);
 				add(bt, LEFT, TOP, PARENTSIZE, PARENTSIZE);

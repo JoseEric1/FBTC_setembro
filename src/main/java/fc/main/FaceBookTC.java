@@ -13,7 +13,7 @@ public class FaceBookTC extends MainWindow {
 	}
 
 	public void initUI() {
-		new TelaInicio().swapToTopmostWindow();
+		add(new TelaInicio(), LEFT, TOP, FILL, FILL);
 
 	}
 }
